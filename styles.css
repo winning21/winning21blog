@@ -1,18 +1,19 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #222;
+body, html {
+  height: 100%;
   margin: 0;
   padding: 0;
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 header {
   background-color: #282c34;
   color: #fff;
   padding: 20px 0;
   text-align: center;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
@@ -21,23 +22,20 @@ nav ul {
   justify-content: center;
   gap: 30px;
 }
-
 nav a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover {
   text-decoration: underline;
 }
-
 main {
   max-width: 700px;
   margin: 40px auto;
   padding: 0 16px;
+  flex: 1;
 }
-
 .post {
   background-color: #fff;
   border-radius: 7px;
@@ -45,11 +43,9 @@ main {
   padding: 24px;
   margin-bottom: 28px;
 }
-
 .post h2 {
   margin-top: 0;
 }
-
 .discord-ping {
   background: #e3f0ff;
   border: 1px solid #90caf9;
@@ -57,25 +53,21 @@ main {
   padding: 20px;
   margin: 40px 0;
 }
-
 .discord-ping h2 {
   margin-top: 0;
   color: #1976d2;
   font-size: 1.3em;
 }
-
 .ping-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-
 .ping-content p {
   margin: 0;
   flex: 1;
 }
-
 .ping-button {
   background-color: #1976d2;
   color: #fff;
@@ -88,15 +80,12 @@ main {
   box-shadow: 0 2px 6px rgba(25, 118, 210, 0.15);
   transition: background 0.2s;
 }
-
 .ping-button:hover {
   background-color: #1565c0;
 }
-
 #giscus-comments {
   margin-top: 32px;
 }
-
 .footer-normal {
   background-color: #282c34;
   color: #fff;
