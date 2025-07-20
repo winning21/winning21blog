@@ -97,7 +97,7 @@ main {
   margin-top: 32px;
 }
 
-footer {
+.footer-normal {
   background-color: #282c34;
   color: #fff;
   text-align: right;
