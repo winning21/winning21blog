@@ -59,3 +59,45 @@ footer {
   width: 100%;
   bottom: 0;
 }
+.discord-ping {
+  background: #e3f0ff;
+  border: 1px solid #90caf9;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 40px 0;
+}
+
+.discord-ping h2 {
+  margin-top: 0;
+  color: #1976d2;
+  font-size: 1.3em;
+}
+
+.ping-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ping-content p {
+  margin: 0;
+  flex: 1;
+}
+
+.ping-button {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(25, 118, 210, 0.15);
+  transition: background 0.2s;
+  margin-left: 20px;
+}
+
+.ping-button:hover {
+  background-color: #1565c0;
+}
