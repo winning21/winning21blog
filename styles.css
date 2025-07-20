@@ -50,16 +50,6 @@ main {
   margin-top: 0;
 }
 
-footer {
-  background-color: #282c34;
-  color: #fff;
-  text-align: center;
-  padding: 16px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
 .discord-ping {
   background: #e3f0ff;
   border: 1px solid #90caf9;
@@ -78,6 +68,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .ping-content p {
@@ -96,9 +87,22 @@ footer {
   font-weight: bold;
   box-shadow: 0 2px 6px rgba(25, 118, 210, 0.15);
   transition: background 0.2s;
-  margin-left: 20px;
 }
 
 .ping-button:hover {
   background-color: #1565c0;
+}
+
+#giscus-comments {
+  margin-top: 32px;
+}
+
+footer {
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
